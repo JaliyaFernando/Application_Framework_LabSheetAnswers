@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        /*Ex 1*/
+        console.log("Hello")
+        
+        function sayHello() {
+            console.log("Inside the function")
+        }
+        sayHello();
+        var function1 = function(){
+            console.log("Function 1")
+        }
+        function functionCall(Param) {
+            console.log("Function Call")
+            Param();
+        }
+        functionCall(function1);
+        /*Ex 2*/
+        var Student = {
+            name : "Jaliya",
+            age : 21,
+            fee : function () {
+                console.log("Rs. 125,000/=")
+            }
+        }
+        console.log(Student);
+        console.log("Name :"+Student.name);
+        console.log("Age  :"+Student.age);
+        console.log("Fee  :"+Student.fee());
+        /*Ex 3*/
+        var vehicleName = "car";
+        function printVehicleName() {
+            console.log(this.vehicleName);
+        }
+        var Vehicle = {
+            vehicleName : "van",
+            getVehicleName : printVehicleName
+        }
+        Vehicle.getVehicleName();
+        printVehicleName();
+        /*Ex 4*/
+        function calcAmount(tax) {
+            var amount = function (amount) {
+                return amount + tax;
+            }
+            return amount;
+        }
+        var am = calcAmount(10);
+        console.log(am(5));
+        /*Ex 5*/
+        function githubApi(callback) {
+            $.getJSON("https://api.github.com/users",callback);
+        }
+        function userEx(data) {
+            data.forEach(element => {
+                    console.log(element.url)
+            })
+        }
+        githubApi(userEx);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
