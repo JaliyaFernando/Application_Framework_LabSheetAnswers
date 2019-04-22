@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efe359e3-b0d2-4462-91a2-6720681089e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CopyContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS_System_Library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab03/.cache/e0/0e70d4e479752562606fed798f5d32.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/.cache/e0/0e70d4e479752562606fed798f5d32.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab03/dist/main.65f60760.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab03/dist/main.65f60760.js" afterDir="false" />
-    </list>
+    <list default="true" id="efe359e3-b0d2-4462-91a2-6720681089e8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/ReadFile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" lean-forward="true" selection-end-line="1" />
+              <caret column="17" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -54,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/CopyContent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -63,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/HttpServer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -101,9 +91,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -128,6 +118,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AF_Lec/TravelToSriLanka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
@@ -156,17 +147,17 @@
       <updated>1554968341144</updated>
       <workItem from="1554968342479" duration="1238000" />
       <workItem from="1555128019425" duration="4279000" />
+      <workItem from="1555134797433" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5517000" />
+    <option name="totallyTimeSpent" value="6175000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13350958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39920688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,7 +169,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -189,6 +180,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6749">
+          <caret line="2861" column="20" lean-forward="true" selection-start-line="2861" selection-start-column="20" selection-end-line="2861" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -203,10 +201,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/ReadFile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6749">
-          <caret line="2861" column="20" lean-forward="true" selection-start-line="2861" selection-start-column="20" selection-end-line="2861" selection-end-column="20" />
+        <state>
+          <caret column="17" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CopyContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -217,24 +222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CopyContent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HttpServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
