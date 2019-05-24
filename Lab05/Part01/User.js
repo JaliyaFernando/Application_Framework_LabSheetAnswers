@@ -5,4 +5,4 @@ const User = function (pFirstName, pLastName, pBDay, pId) {
     this.id = pId;
 }
 
-models.exports(User);
+module.exports = User;
