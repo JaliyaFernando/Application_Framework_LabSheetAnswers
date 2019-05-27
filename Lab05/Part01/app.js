@@ -47,3 +47,30 @@ app.get('/userbyid/:Id', (req,res) => {
         res.status(500).send({message:e});
     }
 });
+
+app.put('/update/:Id', (req,res) => {
+    const index = userArr.findIndex( x => x.id == req.params.Id);
+    if(index > - 1){
+        userArr[index].firstName = req.body.fname;
+        userArr[index].lastName = req.body.lname;
+        userArr[index].birthDay = new Date(req.body.bDay);
+        res.status(200).send(userArr[index]);
+    }else {
+        res.status(404).send({message:"Invalid ID"});
+    }
+})
+
+app.delete('/user/:Id', (req,res) => {
+    try {
+        const index = userArr.findIndex( x => x.id == req.params.Id);
+        if(index > -1){
+            const delUser = userArr.splice(index,1);
+            res.status(200).send({message:"User is deleted"});
+        }else{
+            res.status(404).send({message:"Invalid Id"});
+        }
+    }catch (e) {
+        res.status(500).send({message:e});
+
+    }
+})
